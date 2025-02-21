@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './../css/Home.css';
 
 function Home() {
-    // 임시 게시글 데이터 예시 (총 25개 게시글)
+
     const allPosts = Array.from({ length: 25 }, (_, index) => ({
         id: index + 1,
         title: `${index + 1}번째 게시글`,

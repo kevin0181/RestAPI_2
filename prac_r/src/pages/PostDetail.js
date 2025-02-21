@@ -5,7 +5,6 @@ import './../css/PostDetail.css';
 function PostDetail() {
     const { id } = useParams();
 
-    // 임시 게시글 데이터 (실제 구현 시 API 호출 등으로 데이터를 가져올 수 있음)
     const post = {
         id,
         title: `${id}번째 게시글`,
@@ -13,7 +12,6 @@ function PostDetail() {
     };
 
     const handleDelete = () => {
-        // 삭제 처리 로직 추가
         alert('게시글이 삭제되었습니다.');
     };
 
